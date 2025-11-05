@@ -1,15 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Augusto</title>
+    <title>Vercel: The Frontend Cloud</title>
+    <style>
+        /* 1. Estilos Gerais - Minimalismo e Tipografia */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Fundo branco limpo */
+            color: #1d1d1f; /* Cor de texto padrão da Apple */
+            line-height: 1.6;
+        }
+
+        /* 2. Cabeçalho (Hero Section) - Foco e Título */
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero-title {
+            font-size: 56px; /* Grande e impactante */
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: -0.01em; /* Ajuste sutil para o estilo Apple */
+        }
+
+        .hero-subtitle {
+            font-size: 28px;
+            font-weight: 400;
+            color: #424245; /* Um cinza mais suave */
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #007aff; /* Azul típico de CTAs da Apple */
+            color: white;
+            padding: 12px 25px;
+            border-radius: 980px; /* Borda bem arredondada */
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 17px;
+            transition: background-color 0.2s;
+        }
+
+        .cta-button:hover {
+            background-color: #006ddc;
+        }
+
+        /* 3. Seção de Recursos (Features) - Layout em Colunas */
+        .features-section {
+            padding: 80px 20px;
+            background-color: #f5f5f7; /* Um cinza muito claro para seções */
+            text-align: center;
+        }
+
+        .features-title {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 60px;
+            color: #1d1d1f;
+        }
+
+        .features-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .feature-item {
+            flex: 1;
+            min-width: 280px;
+            max-width: 350px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            text-align: left;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+        }
+
+        .feature-icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: #007aff; /* Ícone Azul */
+        }
+
+        .feature-item h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-size: 16px;
+            color: #424245;
+        }
+
+        /* Rodapé simples e discreto */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 14px;
+            color: #6e6e73;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Site Vercel</h1>
-        <h2>Professor Augusto</h2>
-    </center>
-</body>
 
+    <div class="hero-section">
+        <div class="feature-icon">🚀</div>
+        
+        <h1 class="hero-title">
+            Vercel: A Nuvem Frontend
+        </h1>
+        <p class="hero-subtitle">
+            Desenvolvimento, deploy e escalabilidade para a web moderna. A plataforma que as equipes de frontend adoram.
+        </p>
+        <a href="#" class="cta-button">Começar a Usar Gratuitamente</a>
+    </div>
+
+    <div class="features-section">
+        <h2 class="features-title">
+            Recursos Essenciais para a Velocidade
+        </h2>
+        
+        <div class="features-grid">
+            
+            <div class="feature-item">
+                <div class="feature-icon">⚡</div>
+                <h3>Deploy Global com Edge</h3>
+                <p>Publique instantaneamente seu projeto com nossa CDN Global. Otimização e velocidade levadas ao extremo.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-icon">👁️</div>
+                <h3>Deploy Previews</h3>
+                <p>Receba um URL exclusivo para cada alteração no código. Colabore e revise em um ambiente idêntico à produção.</p>
+            </div>
+            
+            <div class="feature-item">
+                <div class="feature-icon">💻</div>
+                <h3>Desenvolvimento Zero-Config</h3>
+                <p>Conecte seu repositório Git e faça deploy sem se preocupar com configurações complexas de servidor.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="footer">
+        © 2025 Vercel Clone Concept. Todos os direitos reservados.
+    </footer>
+    
+</body>
 </html>
